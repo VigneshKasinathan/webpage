@@ -1,0 +1,47 @@
+
+
+
+// Colors
+$primary-color: #f2f2f2;
+$secondary-color: #e74c3c;
+$accent-color: #ffffff;
+$success-color: darkgrey;
+$sub-heading: #656565;
+$error-color: #e74c3c;
+$info-color: #3498db;
+
+// Typography
+$base-font-family: 'Arial', sans-serif;
+$base-font-size: 16px;
+$line-height: 1.5;
+
+// Spacing
+$base-spacing-unit: 8px;
+$margin-unit: $base-spacing-unit;
+$padding-unit: $base-spacing-unit;
+
+// Breakpoints
+$small-screen: 576px;
+$medium-screen: 768px;
+$large-screen: 992px;
+$x-large-screen: 1200px;
+
+// Box Model
+$border-radius: 4px;
+$box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.25);
+
+// Z-index
+$z-index-modal: 1000;
+
+// Transitions
+$transition-duration: 0.3s;
+$transition-easing: ease-in-out;
+
+// Media Queries
+$mobile: 'only screen and (max-width: 767px)';
+$tablet: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$desktop: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$large-desktop: 'only screen and (min-width: 1200px)';
+
+// Other Variables
+

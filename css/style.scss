@@ -1,0 +1,298 @@
+@import"variables";
+@import"mega-menu";
+@import"searchbar";
+
+p {
+	font-size: 15px;
+}
+
+body {
+	font-family: $base-font-family;
+	background: $accent-color;
+	padding: 0;
+	margin: 0;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.menu-bg {
+	background-color: $primary-color;
+	position: fixed;
+	z-index: 9;
+}
+
+.end {
+	justify-content: flex-end;
+}
+
+i.fa.fa-globe {
+	font-size: 15px;
+	color: $secondary-color;
+}
+
+.cst-pd {
+    padding: 15px 30px;
+	height: 80px;
+	border-bottom: 3px solid #eeeeee;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.banner-align {
+	padding-top: 81px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.quotes {
+	font-size: 50px;
+	font-weight: bold;
+	color: $secondary-color;
+	@media (max-width: 768px) {
+		font-size: 20px;
+		padding-top: 20px;
+	  }
+}
+
+
+
+.v-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ceo {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.service-solutions {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.service-cnt {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: $sub-heading;
+}
+
+.explorer {
+    border: 3px solid $secondary-color;
+    padding: 20px 25px;
+	padding-bottom: 0px;
+	text-align: center;
+	height: 260px;
+	@media (max-width: 768px) {
+		margin-bottom: 50px;
+	}
+	h4{
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+		color: $sub-heading;
+		padding-bottom: 20px;
+		margin-bottom: 0px;
+	}
+	p {
+		font-size: 14px;
+		text-align: center;
+		color: $success-color;
+		margin-bottom: 0px;
+	}
+}
+
+.service-btn {
+	background-color: $secondary-color;
+	color: $accent-color;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: none;
+	padding: 10px 15px;
+	position: relative;
+	top: 20px;
+	&:hover{
+		background-color: $accent-color;
+		border: 2px solid $secondary-color;
+		color: $secondary-color;
+	}
+}
+
+.heading {
+	h1 {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 50px;
+		color: #656565;
+	}
+
+}
+
+.Gen-Ai{
+	h4{
+		font-size: 25px;
+		font-weight: bold;
+		text-align: left;
+		text-transform: uppercase;
+	}
+}
+
+.services {
+    padding-top: 90px;
+	@media (max-width: 768px) {
+		padding-top: 30px;
+	}
+}
+
+.heading {
+	@extend .services;
+}
+
+.Exp_AI {
+	h4 {
+		font-size: 25px;
+		font-weight: bold;
+	}
+	P {
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	img {
+		width: 70%;
+	}
+}
+
+.graph {
+	display: flex;
+	justify-content: center;
+}
+
+.AI-Industry {
+	ul {
+		list-style: none;
+		padding: 0;
+	  }
+  
+	  li {
+		position: relative;
+		margin-bottom: 15px; /* Add some spacing between list items */
+		span {
+			padding-left: 10px;
+		}
+	  }
+  
+	  li::before {
+		content: '\2713'; /* Unicode character for a checkmark */
+		color: white;
+		background-color: #e74c3c;
+		border-radius: 50%;
+		padding: 5px;
+		transform: translateY(-50%);
+		padding-right: 8px;
+		padding-left: 8px;
+	  }
+}
+.AI-Gen {
+	ul {
+		list-style: none;
+		padding: 0;
+	  }
+  
+	  li {
+		position: relative;
+		margin-bottom: 15px; /* Add some spacing between list items */
+		span {
+			padding-left: 10px;
+		}
+	  }
+  
+	  li::before {
+		content: '\2713'; /* Unicode character for a checkmark */
+		color: white;
+		background-color: #e74c3c;
+		border-radius: 50%;
+		padding: 5px;
+		transform: translateY(-50%);
+		padding-right: 8px;
+		padding-left: 8px;
+	  }
+}
+
+.gap {
+	gap: 80px;
+}
+
+.features {
+	h4 {
+		font-size: 25px;
+	}
+	p{
+		font-size: 18px;
+    	text-align: left;
+    	margin-bottom: 15px;
+	}
+
+	img {
+		width: 90%;
+	}
+}
+
+.footer-style-one {
+	background-color: $primary-color;
+	padding-left: 50px;
+    padding-right: 50px;
+	margin-top: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+
+
+.widget-inner {
+	h3{
+		font-size: 18px;
+    font-weight: bold;
+	padding-bottom: 20px;
+	}
+	.list-unstyled {
+		li {
+			display: inline-block;
+			padding-bottom: 10px;
+			a {
+				color: #000;
+				text-decoration: none;
+				
+			}
+		}
+		
+	}
+	
+}
+
+.footer-link {
+	a {
+		color: $secondary-color;
+		text-decoration: none;
+	}
+}
